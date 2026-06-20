@@ -68,15 +68,15 @@ Structured cybersecurity response
 └── requirements.txt
 
 # Installation
-## 1.Create Environment
+##1.Create Environment
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 
-## 2. Install dependencies
+##2. Install dependencies
 pip install -r requirements.txt
 
-## 3. Setup .env
+3. Setup .env
 OPENAI_API_KEY=your_key
 PINECONE_API_KEY=your_key
 
@@ -87,7 +87,7 @@ PINECONE_REGION=us-east-1
 OPENAI_EMBED_MODEL=text-embedding-3-small
 OPENAI_MODEL=gpt-4.1-mini
 
-# How to Run Each File
+#How to Run Each File
 🟡 STEP 1 — Prepare Energy Corpus
 Script:
 
